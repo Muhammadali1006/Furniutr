@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    max-width: 1220px;
+    margin: 0 auto;
+}
+
+
+:root {
+    --ism: black;
+    --dark: white;
+}
+
+body{
+    background-color: var(--dark);
+}
+
+
+
+.white{
+    --ism: white;
+    --dark: black;
+}
+
+h2{
+    color: var(--ism);
+}
+h1{
+    color: var(--ism);
+}
+h3{
+    color: var(--ism);
+}
+h4{
+    color: var(--ism);
+}
+.p{
+    color: var(--ism);
+}
+i{
+    color: var(--ism);
+}
+a{
+    color: var(--ism);
+}
+
+nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 170px;
+    margin: 40px auto;
+}
+.menu{
+    display: flex;
+    gap: 100px;
+}
+
+.btn{
+    background-color: #F7515C;
+    color: white;
+    padding: 20px 40px;
+    border-radius: 4px;
+}
+.watch{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    box-shadow: 1px 1px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--ism);
+}
+.btn-watch{
+    display: flex;
+    gap: 40px;
+    margin: 30px auto;
+}
+.img{
+    height: 500px;
+}
+.strelka{
+    width: 40px;
+    height: 40px;
+    border-radius: 8px;
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+}
+
+
+
+
+@media (max-width: 900px){
+    nav{
+        display: block;
+    }
+}
